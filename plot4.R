@@ -25,7 +25,7 @@ plot(data$Date,data$Voltage, type="l", ylab="Voltage", xlab="datetime")
 plot(data$Date,data$Sub_metering_1, type="l", ylab="Energy sub metering", xlab="")
     lines(data$Date,data$Sub_metering_2, type="l", col="red")
     lines(data$Date,data$Sub_metering_3, type="l", col="blue")
-    legend("topright",col=c("black","blue","red"),border="white",lty=1,legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
+    legend("topright",col=c("black","red","blue"),border="white",lty=1,legend=c("Sub_metering_1","Sub_metering_2","Sub_metering_3"))
 
 plot(data$Date,data$Global_reactive_power, type="l", ylab="Global_reactive_power", xlab="datetime")
 
